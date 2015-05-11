@@ -25,7 +25,7 @@ class Player < Person
 	end 
 
 	def attack(player)
-		player.take_damage(self.strength)
+		player.take_damage(self.strength) #who is going to take damage? the player. 
 	end
 end 
 
